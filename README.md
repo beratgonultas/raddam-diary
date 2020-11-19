@@ -1,11 +1,11 @@
 # ssh-and-lxplus
 ## A small tutorial on SSH and LXPLUS
 
-### First Step: What is SSH? 
+### What is SSH and LXPLUS? 
 
-Just google it. 
+Google them. 
 
-### Second Step: Login onto LXPLUS
+### Login onto LXPLUS
 
 Type the following command to access LXPLUS via SSH.
 
@@ -16,7 +16,7 @@ Now you have access to the remote server, LXPLUS.
 
 (username is not your CERN email address. username is your CERN account name.)  
 
-### Third Step: Get files  
+### Download a file from LXPLUS  
 
 Open the local folder where you want to download the file from LXPLUS. Open the terminal by right clicking in that folder. (You may also use terminal commands to get that directory.)
 
