@@ -6,7 +6,7 @@ Google them.
 
 Type the following command to access LXPLUS via SSH.
 
-  ssh username@lxplus.cern.ch
+`ssh username@lxplus.cern.ch`
 
 Then it will ask you to enter a password. It is your CERN account password.  
 Now you have access to the remote server, LXPLUS.
