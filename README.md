@@ -1,6 +1,3 @@
-# ssh-and-lxplus
-## A small tutorial on SSH and LXPLUS
-
 ### What is SSH and LXPLUS? 
 
 Google them. 
