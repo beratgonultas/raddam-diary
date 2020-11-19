@@ -1,5 +1,5 @@
 # ssh-and-lxplus
-## Small tutorial on SSH and LXPLUS
+## A small tutorial on SSH and LXPLUS
 
 ### First Step: What is SSH? 
 
