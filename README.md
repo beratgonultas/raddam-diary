@@ -6,7 +6,9 @@ Google them.
 
 Type the following command to access LXPLUS via SSH.
 
-`ssh username@lxplus.cern.ch`
+```bash
+ssh username@lxplus.cern.ch
+```
 
 Then it will ask you to enter a password. It is your CERN account password.  
 Now you have access to the remote server, LXPLUS.
@@ -17,7 +19,9 @@ Now you have access to the remote server, LXPLUS.
 
 Open the local folder where you want to download the file from LXPLUS. Open the terminal by right clicking in that folder. (You may also use terminal commands to get that directory.)
 
-Type the following to download the file into the folder you opened terminal in. (./ refers to the current directory) 
+Type the following to download the file into the folder you opened terminal in. (`./` refers to the current directory) 
 
-  scp -r username@lxplus.cern.ch:/the_path_of_the_file/ ./
+```bash
+scp -r username@lxplus.cern.ch:/the_path_of_the_file/ ./
+```
 
