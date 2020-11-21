@@ -2,6 +2,10 @@
 
 Google them. 
 
+Some useful links: 
+1) Beginners Guide to SSH (5:59): https://www.youtube.com/watch?v=qWKK_PNHnnA
+2) SSH Crash Course | With Some DevOps (55:01): https://www.youtube.com/watch?v=hQWRp-FdTpc
+
 ### Login onto LXPLUS
 
 Type the following command to access LXPLUS via SSH.
