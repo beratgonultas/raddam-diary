@@ -11,4 +11,4 @@ Here you can increase your quota.
 
 Now you can copy the folder using the command above. When you give the command, it will say nothing on the terminal. Don't worry, it is processing. You can observe it from the link you increased your quota or you can use ``du -sh public/HFRaddamAnalyzer/`` command in a separate terminal after logging in LXPLUS again. This command shows you the size of the folder. In both ways, you will see an increase in the data amount. 
 
-I have kicked out of LXPLUS twice before finishing the process. I don't know how to solve it. But I did finish my process in my third try. 
+I have kicked out of LXPLUS third before finishing the process. It is the problem described here: https://thecustomizewindows.com/2017/06/fix-write-failed-broken-pipe-packet_write_wait-connection-port-22-broken-pipe/
