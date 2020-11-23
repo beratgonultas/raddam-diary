@@ -1,6 +1,6 @@
 This folder is where the files are located. Its directory is `/afs/cern.ch/work/b/bilki/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/`
-First thing you may want to do is copy it to your home folder (~)
-(You might want to google this at this stage: "Difference between root (/) and home directory (~) in terminal?")
+First thing you may want to do is copy it to your home folder `(~)`
+(You might want to google this at this stage: `"Difference between root (/) and home directory (~) in terminal?")`
 To copy it into your public folder, you should use the command below:
 ```bash
 cp -r /afs/cern.ch/work/b/bilki/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/ ~/public
