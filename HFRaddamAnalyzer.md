@@ -20,3 +20,36 @@ Now you can copy the folder using the command above. When you give the command, 
 
 I have kicked out of LXPLUS before finishing the process in my first three attempts. Then I realized that it is the problem described here: https://thecustomizewindows.com/2017/06/fix-write-failed-broken-pipe-packet_write_wait-connection-port-22-broken-pipe/
 So, I followed the described solution. It worked. (If your internet connection is faster, you may not encounter this problem.)
+
+### Compiling the Folder
+
+Now you have the folder. However you have to compile it. And to compile it, you will use `scramv1 b` command. Enter the folder (HFRaddamAnalyzer) and try the command. You will get an error. 
+
+```bash
+SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
+```
+
+Yes, you need to run this command from a SCRAM-based area and it turns out that yours is not one of them. They are special folders whose name is in the form of  CMSSW_X_Y_Z , for example CMSSW_11_1_4
+
+We need CMSSW_8_0_16 to make sure that paths look identical with the original folder. (Remember it was `/afs/cern.ch/work/b/bilki/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/`)
+
+So, enter ~/public. Then you need to create your SCRAM-based area by following command: 
+
+```bash
+cmsrel CMSSW_8_0_16
+```
+
+It will give an alert but will do what you wanted. (hopefully) 
+Alert looks like this: WARNING: 
+
+Release CMSSW_8_0_16 is not available for architecture slc7_amd64_gcc820.
+         Developer's area is created for available architecture slc7_amd64_gcc530.
+WARNING: Developer's area is created for non-production architecture slc7_amd64_gcc530. Production architecture for this release is slc6_amd64_gcc530.
+
+It is fine for now, because we reallt need this specific version. For example, 11_1_4 gave a long error. 
+
+After that cmsrel command we have ~/public/CMSSW_8_0_16
+Then we should obey the original path, and mkdir a folder called HCALCommissioning2017 in src folder. Then use mv or cp command to move or copy HFRaddamAnalyzer to that new folder. Now you can compile with ``scramv1 b`` in HFRaddamAnalyzer. 
+
+
+
