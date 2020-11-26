@@ -3,10 +3,10 @@
 Google them. 
 
 A link to begin with: 
-Beginners Guide to SSH [5:59]: https://www.youtube.com/watch?v=qWKK_PNHnnA
+Beginners Guide to SSH [5:59] : https://www.youtube.com/watch?v=qWKK_PNHnnA
 
 You may also wan to consult the following link if you are not experienced in Linux:
-Linux for Ethical Hackers (Kali Linux Tutorial): 
+Linux for Ethical Hackers (Kali Linux Tutorial) [2:00:59] : https://www.youtube.com/watch?v=lZAoFs75_cs  (Skip to 30:02 if you don't want to watch installation and overview of Kali Linux part.)
 
 
 ### Login onto LXPLUS
