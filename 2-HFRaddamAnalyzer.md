@@ -52,6 +52,3 @@ It is fine for now, because we really need this specific version. For example, 1
 
 After that cmsrel command we have ~/public/CMSSW_8_0_16
 Then we should obey the original path, and mkdir a folder called HCALCommissioning2017 in src folder. Then use mv or cp command to move or copy HFRaddamAnalyzer to that new folder. Now you can compile with ``scramv1 b`` in HFRaddamAnalyzer. 
-
-
-
