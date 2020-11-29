@@ -42,11 +42,13 @@ cmsrel CMSSW_8_0_16
 It will give an alert but will do what you wanted. (hopefully) 
 Alert looks like this: WARNING: 
 
-Release CMSSW_8_0_16 is not available for architecture slc7_amd64_gcc820.
-         Developer's area is created for available architecture slc7_amd64_gcc530.
+```bash
+Release CMSSW_8_0_16 is not available for architecture slc7_amd64_gcc820.  
+         Developer's area is created for available architecture slc7_amd64_gcc530.  
 WARNING: Developer's area is created for non-production architecture slc7_amd64_gcc530. Production architecture for this release is slc6_amd64_gcc530.
+```
 
-It is fine for now, because we reallt need this specific version. For example, 11_1_4 gave a long error. 
+It is fine for now, because we really need this specific version. For example, 11_1_4 gave a long error. 
 
 After that cmsrel command we have ~/public/CMSSW_8_0_16
 Then we should obey the original path, and mkdir a folder called HCALCommissioning2017 in src folder. Then use mv or cp command to move or copy HFRaddamAnalyzer to that new folder. Now you can compile with ``scramv1 b`` in HFRaddamAnalyzer. 
