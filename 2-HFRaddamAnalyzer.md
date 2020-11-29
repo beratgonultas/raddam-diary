@@ -40,9 +40,10 @@ cmsrel CMSSW_8_0_16
 ```
 
 It will give an alert but will do what you wanted. (hopefully) 
-Alert looks like this: WARNING: 
+Alert looks like this: 
 
 ```bash
+WARNING:  
 Release CMSSW_8_0_16 is not available for architecture slc7_amd64_gcc820.  
          Developer's area is created for available architecture slc7_amd64_gcc530.  
 WARNING: Developer's area is created for non-production architecture slc7_amd64_gcc530. Production architecture for this release is slc6_amd64_gcc530.
