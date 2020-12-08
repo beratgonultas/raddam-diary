@@ -53,3 +53,25 @@ It is fine for now, because we really need this specific version. For example, 1
 
 After that cmsrel command we have ~/public/CMSSW_8_0_16
 Then we should obey the original path, and mkdir a folder called HCALCommissioning2017 in src folder. Then use mv or cp command to move or copy HFRaddamAnalyzer to that new folder. Now you can compile with ``scramv1 b`` in HFRaddamAnalyzer. 
+
+Here is the log I got
+
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Entering Package HCALCommissioning2017/HFRaddamAnalyzer
+>> Creating project symlinks
+  src/HCALCommissioning2017/HFRaddamAnalyzer/python -> python/HCALCommissioning2017/HFRaddamAnalyzer
+>> Leaving Package HCALCommissioning2017/HFRaddamAnalyzer
+>> Package HCALCommissioning2017/HFRaddamAnalyzer built
+gmake[1]: Entering directory '/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16'
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+  src/HCALCommissioning2017/HFRaddamAnalyzer/python -> python/HCALCommissioning2017/HFRaddamAnalyzer
+>> Done python_symlink
+>> Compiling python modules python
+>> Compiling python modules src/HCALCommissioning2017/HFRaddamAnalyzer/python
+>> All python modules compiled
+>> Pluging of all type refreshed.
+>> Done generating edm plugin poisoned information
+gmake[1]: Leaving directory '/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16'
