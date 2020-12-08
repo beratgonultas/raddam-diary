@@ -96,5 +96,13 @@ mv: cannot stat ‘N_321025.root’: No such file or directory
 ./plotter: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by ./plotter)
 ```
 
-Here we have several problems. 
+Here we have several problems. The first and easy thing I did was to remove the already existing file from Plots folder. Then I run the same command again and got rid of that particular line. Perfect.
+
+```bash
+./analyze10TS.sh: line 33: cmsRun: command not found
+mv: cannot stat ‘N_321025.root’: No such file or directory
+./plotter: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by ./plotter)
+```
+
+
 
