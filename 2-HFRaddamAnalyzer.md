@@ -104,5 +104,18 @@ mv: cannot stat ‘N_321025.root’: No such file or directory
 ./plotter: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by ./plotter)
 ```
 
+After a loooong period of search and examination about the other errors, I found that https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookSetComputerNode related to the cmsRun error. 
+
+Here its says
+
+```bash
+You must setup your runtime environment every time you start work in your project area.
+
+cd CMSSW_9_2_3/src
+
+To setup the runtime variable do
+
+cmsenv
+```
 
 
