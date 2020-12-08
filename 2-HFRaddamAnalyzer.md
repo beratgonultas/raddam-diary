@@ -1,4 +1,4 @@
-### The Command for Make a Copy in Your Home Folder
+### The Command for Making a Copy in Your Home Folder
 
 The folder called HFRaddamAnalyzer is where the files are located. Its directory is `/afs/cern.ch/work/b/bilki/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/`
 First thing you may want to do is copy it to your home folder `(~)`
