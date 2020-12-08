@@ -118,4 +118,5 @@ To setup the runtime variable do
 cmsenv
 ```
 
+So, although I built my work area with ``cmsrel`` command above, it is necessary to setup it every time. That was my mistake. After doing ``cmsenv``, cmsRun is now fine. 
 
