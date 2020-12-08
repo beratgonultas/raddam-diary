@@ -19,7 +19,9 @@ Now you can copy the folder using the command above. When you give the command, 
 ### "Write Failed Broken Pipe" Error
 
 I have kicked out of LXPLUS before finishing the process in my first three attempts. Then I realized that it is the problem described here: https://thecustomizewindows.com/2017/06/fix-write-failed-broken-pipe-packet_write_wait-connection-port-22-broken-pipe/
-So, I followed the described solution. It worked. (If your internet connection is faster, you may not encounter this problem.)
+So, I followed the described solution. It worked. 
+P.S.#1  It is valid for that specific log in. If you always want this solution, you should always follow that particular procedure.
+P.S.#2  If your internet connection is faster, you may not encounter this problem.
 
 ### Compiling the Folder
 
@@ -84,4 +86,15 @@ Then the instructions(we have a small procedure written by a previous master of 
 
 When I enter ``make plotter.C`` it says ``make: Nothing to be done for `plotter.C'.``
 I keep my optimism and consider it fine. I guess this command was already executed in our original version of files. But I am not sure. Anyways. Then I went to /test folder and here we should try to run ``analyze10TS.sh``  
+The command for this purpose is ``./analyze10TS.sh RunNumber``
+It is said that we may for instance try it with 321025 as RunNumber. When I do it, what I get is
+
+```bash
+mkdir: cannot create directory ‘Plots/321025’: File exists
+./analyze10TS.sh: line 33: cmsRun: command not found
+mv: cannot stat ‘N_321025.root’: No such file or directory
+./plotter: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by ./plotter)
+```
+
+Here we have several problems. 
 
