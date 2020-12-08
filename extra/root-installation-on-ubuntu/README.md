@@ -1,1 +1,1 @@
-These screenshots are valuable instructions of my brother, Enes, to me about how to install root on ubuntu when I was trying to install it for the first time for Phys442.  
+These screenshots are valuable instructions of my brother, Enes, to me about how to install root on ubuntu when I was trying to install it for the first time for Phys442. They are great so I thought it is a good idea to archive them. 
