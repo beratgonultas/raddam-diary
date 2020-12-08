@@ -82,10 +82,16 @@ gmake[1]: Leaving directory '/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16'
 
 It seems fine. 
 
+### Compiling plotter.C with make
+
 Then the instructions(we have a small procedure written by a previous master of these stuffs) says that we should compile plotter.C with make command. plotter.C is in /test/Files
 
 When I enter ``make plotter.C`` it says ``make: Nothing to be done for `plotter.C'.``
-I keep my optimism and consider it fine. I guess this command was already executed in our original version of files. But I am not sure. Anyways. Then I went to /test folder and here we should try to run ``analyze10TS.sh``  
+I keep my optimism and consider it fine. I guess this command was already executed in our original version of files. But I am not sure. Anyways.
+
+### Running analyze10TS.sh and solutions for errors
+
+Then I went to /test folder and here we should try to run ``analyze10TS.sh``  
 The command for this purpose is ``./analyze10TS.sh RunNumber``
 It is said that we may for instance try it with 321025 as RunNumber. When I do it, what I get is
 
@@ -119,4 +125,62 @@ cmsenv
 ```
 
 So, although I built my work area with ``cmsrel`` command above, it is necessary to setup it every time. That was my mistake. After doing ``cmsenv``, cmsRun is now fine. 
+
+After this little fixing, I run analyzeTS.sh again and... amazing. All errors were gone and I watched the beautiful flowing script with satisfaction. 
+
+It looks like 
+
+```bash
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+%MSG-w XrdAdaptor:  PostBeginLumi 09-Dec-2020 00:13:51 CET PostBeginLumi
+Data is served from cern.ch instead of original site eoscms
+%MSG
+Begin processing the 1st record. Run 321025, Event 1, LumiSection 1 at 09-Dec-2020 00:13:51.887 CET
+Begin processing the 201st record. Run 321025, Event 201, LumiSection 1 at 09-Dec-2020 00:13:56.645 CET
+Begin processing the 401st record. Run 321025, Event 401, LumiSection 1 at 09-Dec-2020 00:13:57.530 CET
+
+...
+(many similar things)
+...
+
+Begin processing the 34601st record. Run 321025, Event 34601, LumiSection 1 at 09-Dec-2020 00:15:01.767 CET
+Begin processing the 34801st record. Run 321025, Event 34801, LumiSection 1 at 09-Dec-2020 00:15:02.260 CET
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w PostBeginLumi                          1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           PostBeginLumi                     
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+6
+112
+0 / 35000
+200 / 35000
+400 / 35000
+600 / 35000
+800 / 35000
+1000 / 35000
+
+...
+(continues similarly)
+...
+
+34400 / 35000
+34600 / 35000
+34800 / 35000
+Info in <TCanvas::Print>: pdf file PulseShapes.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file PulseShapes.pdf
+Info in <TCanvas::Print>: pdf file TDCShapes.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file TDCShapes.pdf
+```
+
 
