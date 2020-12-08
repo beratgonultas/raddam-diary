@@ -56,6 +56,7 @@ Then we should obey the original path, and mkdir a folder called HCALCommissioni
 
 Here is the log I got
 
+```bash
 >> Local Products Rules ..... started
 >> Local Products Rules ..... done
 >> Entering Package HCALCommissioning2017/HFRaddamAnalyzer
@@ -75,3 +76,4 @@ gmake[1]: Entering directory '/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16'
 >> Pluging of all type refreshed.
 >> Done generating edm plugin poisoned information
 gmake[1]: Leaving directory '/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16'
+```
