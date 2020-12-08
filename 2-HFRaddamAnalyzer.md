@@ -183,4 +183,6 @@ Info in <TCanvas::Print>: pdf file TDCShapes.pdf has been created
 Info in <TCanvas::Print>: Current canvas added to pdf file TDCShapes.pdf
 ```
 
+Last lines urged me to take a look at and search for the previous versions of mentioned pdfs in the files that I downloaded on my local computer. 
+I found them. But for now I have no idea about how to interpret them.
 
