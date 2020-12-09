@@ -112,7 +112,7 @@ mv: cannot stat ‘N_321025.root’: No such file or directory
 
 After a loooong period of search and examination about the other errors, I found that https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookSetComputerNode related to the cmsRun error. 
 
-Here its says
+Here it says
 
 ```bash
 You must setup your runtime environment every time you start work in your project area.
