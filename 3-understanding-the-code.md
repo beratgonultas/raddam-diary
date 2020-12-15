@@ -13,3 +13,30 @@ And also there is my personal copy in my area:
 So I have two copy of both PulseShapes.pdf and TDCShapes.pdf. And we expect a difference since I ran the analyzeTS.sh one additional time for 321025 compared to the original one.
 
 To detect where those pdfs are, I used ```find``` command.
+
+It is used as ```find /dir/path/look/up -name "dir-name-here"```. So in my case, the command was ```find /afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/ -name "PulseShapes.pdf"``` for PulseShapes.pdf
+
+The result is:
+
+```bash
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/290724/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/290727/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/289904/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/290720/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/291416/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/293304/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/295683/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/301006/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/298355/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/300719/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/300722/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/301007/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/304726/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/312918/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/312912/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/313023/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/313265/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/313526/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/313921/PulseShapes.pdf
+/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/321025/PulseShapes.pdf
+```
