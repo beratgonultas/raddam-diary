@@ -9,3 +9,7 @@ There is the original path of the files:
 And also there is my personal copy in my area:
 
 ```~/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/```
+
+So I have two copy of both PulseShapes.pdf and TDCShapes.pdf. And we expect a difference since I ran the analyzeTS.sh one additional time for 321025 compared to the original one.
+
+To detect where those pdfs are, I used ```find``` command.
