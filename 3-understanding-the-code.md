@@ -49,4 +49,23 @@ scp -r bgonulta@lxplus.cern.ch:/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/
 
 to my current directory. (This command works in terminal without logging in lxplus)
 
+However, interestingly, 
+
+```bash
+scp -r bgonulta@lxplus.cern.ch:/afs/cern.ch/work/b/bilki/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/321025/PulseShapes.pdf ./
+```
+
+didn't work. The error is
+
+```bash
+scp: /afs/cern.ch/work/b/bilki/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/321025/PulseShapes.pdf: Not a directory
+```
+
+So, I opened that directory and saw that in Plots we have
+
+```bash
+289904  290727  295683  300722  304726  313023  313921  *318682*
+290720  291416  298355  301006  312912  313265  314920  319729
+290724  293304  300719  301007  312918  313526  316800  321025
+```
 
