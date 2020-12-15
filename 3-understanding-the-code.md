@@ -43,7 +43,9 @@ The result is:
 
 So it turned out to be not only one file. There are PulseShapes.pdf for each run number. Of course, I am interested in the last one, 321025. I dowloaded it by 
 
-```scp -r bgonulta@lxplus.cern.ch:/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/321025/PulseShapes.pdf ./```
+```bash
+scp -r bgonulta@lxplus.cern.ch:/afs/cern.ch/user/b/bgonulta/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/321025/PulseShapes.pdf ./
+```
 
 to my current directory. (This command works in terminal without logging in lxplus)
 
