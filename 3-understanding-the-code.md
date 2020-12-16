@@ -10,7 +10,7 @@ And also there is my personal copy in my area:
 
 ```~/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/```
 
-So I have two copy of both PulseShapes.pdf and TDCShapes.pdf. And we expect a difference since I ran the analyzeTS.sh one additional time for 321025 compared to the original one.
+So I have two copy of both PulseShapes.pdf and TDCShapes.pdf. I want to compare them since I ran the analyzeTS.sh one additional time for 321025 compared to the original one.
 
 To detect where those pdfs are, I used ```find``` command.
 
@@ -61,11 +61,6 @@ didn't work. The error is
 scp: /afs/cern.ch/work/b/bilki/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFRaddamAnalyzer/test/Plots/321025/PulseShapes.pdf: Not a directory
 ```
 
-So, I opened that directory and saw that in Plots we have
+So, I opened that directory and saw that in Plots we don't have 321025 as a directory as well as some others. But there are some TDCShapes.pdf files with those names. That 321025 file must be what I removed for fixing an error at previous markdown file. 
 
-```bash
-289904  290727  295683  300722  304726  313023  313921  *318682*
-290720  291416  298355  301006  312912  313265  314920  319729
-290724  293304  300719  301007  312918  313526  316800  321025
-```
-
+So, we don't have any folders for 314920, 316800, 318682, 319729 and 321025 in the original directory. 
