@@ -63,4 +63,6 @@ scp: /afs/cern.ch/work/b/bilki/public/CMSSW_8_0_16/src/HCALCommissioning2017/HFR
 
 So, I opened that directory and saw that in Plots we don't have 321025 as a directory as well as some others. But there are some TDCShapes.pdf files with those names. That 321025 file must be what I removed for fixing an error at previous markdown file. 
 
-So, we don't have any folders for 314920, 316800, 318682, 319729 and 321025 in the original directory. 
+So, we don't have any folders for 314920, 316800, 318682, 319729 and 321025 in the original directory. Therefore, I will remove one of the already existing ones from my personal copy and remake it by running the analyze.sh for it. Then I can compare it with its previous version.
+
+I choose arbitrarily the run number 312912. Since I have already downloaded all files from the original path, I don't download the pdfs associated with this particular run number. Just I check if they are there. Yes they are there but they look like pretty strange compared to the other one.(321025) It is a bit too monotone. So, I will examine this one but additionally I will examine another one which have some changes in it. I choose 304726 for that purpose.   
