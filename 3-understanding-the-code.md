@@ -66,3 +66,20 @@ So, I opened that directory and saw that in Plots we don't have 321025 as a dire
 So, we don't have any folders for 314920, 316800, 318682, 319729 and 321025 in the original directory. Therefore, I will remove one of the already existing ones from my personal copy and remake it by running the analyze.sh for it. Then I can compare it with its previous version.
 
 I choose arbitrarily the run number 312912. Since I have already downloaded all files from the original path, I don't download the pdfs associated with this particular run number. Just I check if they are there. Yes they are there but they look like pretty strange compared to the other one.(321025) It is a bit too monotone. So, I will examine this one but additionally I will examine another one which have some changes in it. I choose 304726 for that purpose.   
+
+for 304
+
+Pulse shape suspicious! (eta,phi,depth)=(-38,51,2) | -5.15 -2.05 -2.05 7.25 -2.05 -2.05 
+Pulse shape suspicious! (eta,phi,depth)=(-41,15,2) | 1.05 -2.05 -2.05 1.05 -5.15 -5.15 
+Pulse shape suspicious! (eta,phi,depth)=(-41,51,2) | -5.15 -5.15 -2.05 -2.05 -2.05 1.05 
+Pulse shape suspicious! (eta,phi,depth)=(41,35,2) | 4.15 -2.05 -2.05 10.35 -2.05 -5.15 
+Pulse shape suspicious! (eta,phi,depth)=(-36,15,3) | -5.15 -5.15 -2.05 1.05 -2.05 1.05 
+Pulse shape suspicious! (eta,phi,depth)=(-38,71,3) | 1.05 -2.05 -5.15 -5.15 -2.05 -2.05 
+Pulse shape suspicious! (eta,phi,depth)=(-40,15,3) | -2.05 -2.05 -2.05 1.05 -8.25 -5.15 
+Pulse shape suspicious! (eta,phi,depth)=(-40,51,3) | 1.05 -2.05 -2.05 -2.05 1.05 -2.05 
+Pulse shape suspicious! (eta,phi,depth)=(-30,15,4) | -2.05 -5.15 -2.05 1.05 -2.05 1.05 
+Pulse shape suspicious! (eta,phi,depth)=(-34,15,4) | -5.15 -5.15 -2.05 4.15 -5.15 -2.05 
+Pulse shape suspicious! (eta,phi,depth)=(-34,51,4) | -2.05 -2.05 -2.05 -2.05 -5.15 -2.05 
+Pulse shape suspicious! (eta,phi,depth)=(-36,71,4) | -5.15 1.05 -2.05 13.45 -2.05 -2.05 
+Pulse shape suspicious! (eta,phi,depth)=(-38,15,4) | -2.05 -5.15 -5.15 -2.05 -2.05 -2.05 
+Pulse shape suspicious! (eta,phi,depth)=(-41,15,4) | 1.05 -2.05 -2.05 -5.15 -2.05 -2.05 
