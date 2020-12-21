@@ -19,8 +19,8 @@ Now you can copy the folder using the command above. When you give the command, 
 ### "Write Failed Broken Pipe" Error
 
 I have kicked out of LXPLUS before finishing the process in my first three attempts. Then I realized that it is the problem described here: https://thecustomizewindows.com/2017/06/fix-write-failed-broken-pipe-packet_write_wait-connection-port-22-broken-pipe/
-So, I followed the described solution. It worked. 
-P.S.#1  It is valid for that specific log in. If you always want this solution, you should always follow that particular procedure.
+So, I followed the described solution. It worked.  
+P.S.#1  It is valid for that specific log in. If you always want this solution, you should always follow that particular procedure.  
 P.S.#2  If your internet connection is faster, you may not encounter this problem.
 
 ### Compiling the Folder
