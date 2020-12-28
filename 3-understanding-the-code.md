@@ -69,7 +69,7 @@ I choose arbitrarily the run number 312912. Since I have already downloaded all 
 
 When I run the code for these run numbers, i.e. 312912 and 304726, the prompt was a bit different from my previous run for 321025. 
 
-It has
+They both have the following behaviour (I don't remember which one was associated with this particular example) 
 
 ```bash
 Pulse shape suspicious! (eta,phi,depth)=(-38,51,2) | -5.15 -2.05 -2.05 7.25 -2.05 -2.05 
