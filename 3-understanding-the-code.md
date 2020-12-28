@@ -67,8 +67,11 @@ So, we don't have any folders for 314920, 316800, 318682, 319729 and 321025 in t
 
 I choose arbitrarily the run number 312912. Since I have already downloaded all files from the original path, I don't download the pdfs associated with this particular run number. Just I check if they are there. Yes they are there but they look like pretty strange compared to the other one.(321025) It is a bit too monotone. So, I will examine this one but additionally I will examine another one which have some changes in it. I choose 304726 for that purpose.   
 
-for 304
+When I run the code for these run numbers, i.e. 312912 and 304726, the prompt was a bit different from my previous run for 321025. 
 
+It has
+
+```bash
 Pulse shape suspicious! (eta,phi,depth)=(-38,51,2) | -5.15 -2.05 -2.05 7.25 -2.05 -2.05 
 Pulse shape suspicious! (eta,phi,depth)=(-41,15,2) | 1.05 -2.05 -2.05 1.05 -5.15 -5.15 
 Pulse shape suspicious! (eta,phi,depth)=(-41,51,2) | -5.15 -5.15 -2.05 -2.05 -2.05 1.05 
@@ -83,3 +86,23 @@ Pulse shape suspicious! (eta,phi,depth)=(-34,51,4) | -2.05 -2.05 -2.05 -2.05 -5.
 Pulse shape suspicious! (eta,phi,depth)=(-36,71,4) | -5.15 1.05 -2.05 13.45 -2.05 -2.05 
 Pulse shape suspicious! (eta,phi,depth)=(-38,15,4) | -2.05 -5.15 -5.15 -2.05 -2.05 -2.05 
 Pulse shape suspicious! (eta,phi,depth)=(-41,15,4) | 1.05 -2.05 -2.05 -5.15 -2.05 -2.05 
+```
+
+instead of 
+
+```bash
+0 / 35000
+200 / 35000
+400 / 35000
+600 / 35000
+800 / 35000
+1000 / 35000
+
+...
+(continues similarly)
+...
+
+34400 / 35000
+34600 / 35000
+34800 / 35000
+``` 
