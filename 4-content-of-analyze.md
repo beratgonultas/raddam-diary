@@ -7,4 +7,4 @@ then
 fi
 ```
 
-These lines check if "Data" directory does "not exist". And if this is the case, i.e. if that directory does not exist, then it creates that directory. Basically first 30 lines of code set up the environment.  
+These lines check if "Data" directory does "not exist". And if this is the case, i.e. if that directory does not exist, then it creates that directory. Basically first 30 lines of code set up the environment similar to this one.  
