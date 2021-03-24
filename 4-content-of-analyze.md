@@ -24,5 +24,5 @@ I guess, this file create some .root files in the form 'N_'+runNumber+'.root'  (
 
 Then if we come back to analyze10TS.sh, we see this .root files are moved to NTuples directory. 
 
-After that, plotter runs with the run number. 
+After that, plotter runs with the run number. (line 39 of analyze10TS.sh)
 
