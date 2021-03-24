@@ -8,3 +8,8 @@ fi
 ```
 
 These lines check if "Data" directory does "not exist". And if this is the case, i.e. if that directory does not exist, then it creates that directory. Basically first 30 lines of code set up the environment similar to this one.  
+
+$1 in the code refers to the run number we provided. 
+(Remember the command to run the analyze10TS.sh: ``./analyze10TS.sh RunNumber``)
+
+
