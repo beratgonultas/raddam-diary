@@ -14,6 +14,8 @@ $1 in the code refers to the run number we provided.
 
 After setting up the environment, we have:
 
-``cmsRun hfRaddamAnalyzer_10TS_cfg.py $1``
+```bash
+cmsRun hfRaddamAnalyzer_10TS_cfg.py $1
+```
 
 
