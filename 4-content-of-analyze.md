@@ -18,4 +18,6 @@ After setting up the environment, we have:
 cmsRun hfRaddamAnalyzer_10TS_cfg.py $1
 ```
 
+This is the configuration file. (See: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookConfigFileIntro)
+
 
