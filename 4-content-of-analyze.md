@@ -12,4 +12,8 @@ These lines check if "Data" directory does "not exist". And if this is the case,
 $1 in the code refers to the run number we provided. 
 (Remember the command to run the analyze10TS.sh: ``./analyze10TS.sh RunNumber``)
 
+After setting up the environment, we have:
+
+``cmsRun hfRaddamAnalyzer_10TS_cfg.py $1``
+
 
