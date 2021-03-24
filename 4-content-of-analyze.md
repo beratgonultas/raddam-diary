@@ -20,4 +20,9 @@ cmsRun hfRaddamAnalyzer_10TS_cfg.py $1
 
 This is the configuration file. (See: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookConfigFileIntro)
 
+I guess, this file create some .root files in the form 'N_'+runNumber+'.root'  (See: line 52 of the cfg file)
+
+Then if we come back to analyze10TS.sh, we see this .root files are moved to NTuples directory. 
+
+After that, plotter runs with the run number. 
 
