@@ -1,4 +1,4 @@
-In NTuples, Data and Histos folders, we have files with .root extensions. (Note: To work with files, it is highly recommended to download a copy of HFRaddamAnalyzer to your local area in advance for simplicity.)
+In **NTuples**, **Data** and **Histos** folders, we have files with .root extensions. (Note: To work with files, it is highly recommended to download a copy of HFRaddamAnalyzer to your local area in advance for simplicity.)
 
 The way to examine them is as follows:
 
