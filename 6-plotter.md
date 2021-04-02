@@ -1,1 +1,1 @@
-
+At the moment, we noticed that the program we are working on is not the latest version with which the analysis of İrem Zog's thesis is done. So, this version lacks some amount of code, and it is not the best work we've seen regarding tidiness and readability. So, we are now waiting to receive the latest version of the program, hoping that it is easier to understand. 
