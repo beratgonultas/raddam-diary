@@ -15,3 +15,7 @@ Since we only have plotter.C, firstly we hoped to run it by replacing with the p
 7. Download pdfs and compare.
 
 Certainly what Berat got was not the correct one, it was not even similar with what we have in Irem's thesis. However, it was an interesting and particular wrong result. He get exactly same thing with what he got by old code for 321025. 
+
+A few days later, Berat noticed that he forgot re-compile the plotter.C previous time. So plotter, which is run by analyze10TS.sh, is of older version. He deleted it and recompile plotter.C  
+Then he ran the analyze10TS.sh with 321585, again. This time, he got not only PulseShapes.pdf and TDCShapes.pdf, but also many more like Q2.pdf  
+This is something good, so we are now really running the new program. However, this pdfs are also all belong to run number 321025, not 321585.   
