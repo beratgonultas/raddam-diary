@@ -1,0 +1,1 @@
+Here is simple guide for those who are having a hard time with installing ROOT. Choose the release you want to install here. If you don't have any special preference, then you are advised to choose the latest.
