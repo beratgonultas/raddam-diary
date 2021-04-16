@@ -9,3 +9,6 @@ Here is simple guide for those who are having a hard time with installing ROOT. 
 7)At the end of this file, create a new line and write ``. <pathname>/root/bin/thisroot.sh`` 
 8)Save the file.
 9)Close terminal. Reopen it. Type ``root``
+10)Voilà! Root must have been opened. 
+
+ATTENTION: At step 7, we have a space after dot.  
