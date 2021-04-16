@@ -86,8 +86,7 @@ It seems fine.
 
 Then the instructions(we have a small procedure written by a previous master of these stuffs) says that we should compile plotter.C with make command. plotter.C is in /test/Files
 
-When I enter ``make plotter.C`` it says ``make: Nothing to be done for `plotter.C'.``
-I keep my optimism and consider it fine. I guess this command was already executed in our original version of files. But I am not sure. Anyways.
+Enter ``make plotter`` in that directory.
 
 ### Running analyze10TS.sh and solutions for errors
 
