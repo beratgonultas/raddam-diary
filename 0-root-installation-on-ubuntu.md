@@ -12,3 +12,7 @@ Here is simple guide for those who are having a hard time with installing ROOT. 
 10)Voilà! Root must have been opened.   
 
 ATTENTION: At step 7, we have a space after dot.  
+
+Here you have two nice ROOT tutorials:  
+https://www.youtube.com/playlist?list=PLLybgCU6QCGWLdDO4ZDaB0kLrO3maeYAe  
+https://youtu.be/LfSFGkkBT-k   
