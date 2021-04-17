@@ -1,6 +1,6 @@
 Here is simple guide for those who are having a hard time with installing ROOT. This is basically the refined version of Enes Gönültaş' guideline for me when I was trying to install ROOT for the first time for Phys442.
 
-1)Choose the release you want to install here. If you don't have any special preference, then you are advised to choose the latest.  
+1)Choose the release you want to install from [this page](https://root.cern/install/all_releases/). If you don't have any special preference, then you are advised to choose the latest.  
 2)Choose your Ubuntu version and download.  
 3)Extract the file.  
 4)There must be a file called .bashrc in /home/<yourusername>  
