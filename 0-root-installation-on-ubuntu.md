@@ -1,4 +1,4 @@
-Here is simple guide for those who are having a hard time with installing ROOT. This is basically the refined version of Enes Gönültaş' guideline for me when I was trying to install ROOT for the first time for Phys442.
+Here is a simple guide for those who are having a hard time with installing ROOT. This is basically the refined version of Enes Gönültaş' guideline for me when I was trying to install ROOT for the first time for Phys442.
 
 1)Choose the release you want to install from [this page](https://root.cern/install/all_releases/). If you don't have any special preference, then you are advised to choose the latest.  
 2)Choose your Ubuntu version and download.  
