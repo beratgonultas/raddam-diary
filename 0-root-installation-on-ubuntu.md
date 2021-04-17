@@ -3,7 +3,7 @@ Here is simple guide for those who are having a hard time with installing ROOT. 
 1)Choose the release you want to install from [this page](https://root.cern/install/all_releases/). If you don't have any special preference, then you are advised to choose the latest.  
 2)Choose your Ubuntu version and download.  
 3)Extract the file.  
-4)There must be a file called .bashrc in ``/home/<yourusername>  ``
+4)There must be a file called .bashrc in ``/home/<yourusername>  ``  
 5)Check it with typing ``la`` in terminal.   
 6)Use ``gedit .bashrc`` to open it.  
 7)At the end of this file, create a new line and write ``. <pathname>/root/bin/thisroot.sh``   
