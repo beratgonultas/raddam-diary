@@ -1,6 +1,6 @@
 At the moment, we noticed that the program we are working on is not the latest version with which the analysis of İrem Zöğ's thesis is done. So, this version lacks some amount of code, and it is not the best work we've seen regarding tidiness and readability. So, we are now waiting to receive the latest version of the program, hoping that it is easier to understand.   
 (Some days later)  
-We received the latest version of "plotter.C", not the whole directory. This version is much more longer (more than twice) than the old one. (Burak Bilki's version)
+From Erhan Gülmez, we received the latest version of "plotter.C", not the whole directory. This version is much more longer (more than twice) than the old one. (Burak Bilki's version)
 
 Also, it is much more clear as it has many comments. We appreciated it. 
 
