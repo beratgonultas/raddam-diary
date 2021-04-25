@@ -15,4 +15,4 @@ You will hopefully get the correct result. Check it with İrem's thesis.
 To check by yourself that N_321585.root is necessary, try the procedure by omitting steps 3 and 4. You will get an error concerning NTuples.   
 One way or another, code is running thanks to İrem Zöğ.
 
-Note: We need to modify a little bit the ``runner.sh`` to create those NTuples files etc.
+Note: We need to modify a little bit the ``runner.sh`` to create those NTuples files etc. __Update:__ For now, old ``analyze10TS.sh`` is enough without any change. 
