@@ -18,4 +18,4 @@ One way or another, code is running thanks to İrem Zöğ.
 Note: We need to modify a little bit the ``runner.sh`` to create those NTuples files etc. __Update:__ For now, old ``analyze10TS.sh`` is enough without any change. 
 
  
-<a name="myfootnote1"><sup>1</a>: Erdem searched for it and found that it can be solved by ``chmod u+r+x filename.sh`` This solves "permission denied" problem. 
+<a name="myfootnote1"><sup>1</a> Erdem searched for it and found that it can be solved by ``chmod u+r+x filename.sh`` This solves "permission denied" problem. 
