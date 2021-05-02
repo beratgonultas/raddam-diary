@@ -3,7 +3,7 @@ Since we thought it (6-plotter-issue.md) may be an issue about incompability, I 
 I tried some other silly things first, which didn't end up with a success. At the end, I tried replacing it with the "Files" folder in my original copy of HFRaddamAnalyzer. The main thing to run in these new "Files" are the runner.sh and run2.sh  
 In them, each run number written in them are ran by plotter. So, they don't need to specify a run number to run. I typed ``./runner.sh`` and ``./run2.sh``  
 They didn't work. Consistently I got an error saying "Permission denied"  
-Idk why I got this error but I noticed another problem. In this .sh files, unlike analyze10TS.sh we don't have ``cmsRun`` line so that we don't generate the NTuples file (files like N_321025.root) for any of the run numbers. That cmsRun part is the essential part for extracting data, I think. What plotter does is plotting data using NTuples files. 
+Idk why<sup>[1](#myfootnote1)</sup> I got this error but I noticed another problem. In this .sh files, unlike analyze10TS.sh we don't have ``cmsRun`` line so that we don't generate the NTuples file (files like N_321025.root) for any of the run numbers. That cmsRun part is the essential (and long for pc) part, I think. What plotter does is plotting data using NTuples files. 
 So, I tried running a single run number, of course 321585, by hand.   
 1)I created /Plots/321585  
 2)Of course, don't forget cmsenv  
@@ -16,3 +16,5 @@ To check by yourself that N_321585.root is necessary, try the procedure by omitt
 One way or another, code is running thanks to İrem Zöğ.
 
 Note: We need to modify a little bit the ``runner.sh`` to create those NTuples files etc. __Update:__ For now, old ``analyze10TS.sh`` is enough without any change. 
+
+<a name="myfootnote1">1</a>: Erdem searched for it and found that it can be solved by ``chmod u+r+x filename.sh`` This solves "permission denied" problem. 
