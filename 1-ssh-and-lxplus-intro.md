@@ -26,9 +26,20 @@ Now you have access to the remote server, LXPLUS.
 
 Open the local folder where you want to download the file from LXPLUS. Open the terminal by right clicking in that folder. (You may also use terminal commands to get that directory.)
 
-Type the following to download the file into the folder you opened terminal in. (`./` refers to the current directory) 
+Type the following to download the file into the folder you opened terminal in. (`./` refers to the current directory, you may change it as you wish) 
 
 ```bash
-scp -r username@lxplus.cern.ch:/the_path_of_the_file/ ./
+scp -r username@lxplus.cern.ch:/path_to_file/ ./
 ```
 
+__OR__ alternatively you may prefer doing in lxplus.
+If you are in lxplus, type the following: 
+
+```bash
+scp -r path_to_file/ user@your_ip:path_to_download 
+```
+
+If you don't know what is you IP, then look here: https://itsfoss.com/check-ip-address-ubuntu/
+
+Note: If you want to do upload change the order of the server and local.
+Second Note: -r refers to directory. If you want to up/down-load only one file not a directory, then omit -r
