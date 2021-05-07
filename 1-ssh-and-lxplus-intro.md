@@ -39,7 +39,7 @@ If you are in lxplus, type the following:
 scp -r path_to_file/ user@your_ip:path_to_download 
 ```
 
-If you don't know what is you IP, then look here: https://itsfoss.com/check-ip-address-ubuntu/
+# If you don't know what is you IP, then look here: https://itsfoss.com/check-ip-address-ubuntu/
 
-Note: If you want to do upload change the order of the server and local.
+# Note: If you want to do upload change the order of the server and local.
 Second Note: -r refers to directory. If you want to up/down-load only one file not a directory, then omit -r
