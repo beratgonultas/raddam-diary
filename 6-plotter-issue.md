@@ -19,9 +19,9 @@ Certainly what I got was not the correct one, it was not even similar with what 
 A few days later, I noticed that I forgot re-compile the plotter.C previous time. So plotter, which is run by analyze10TS.sh, is of older version. I deleted it and recompiled plotter.C  
 Then I ran the analyze10TS.sh with 321585, again. This time, I got not only PulseShapes.pdf and TDCShapes.pdf, but also many more like Q2.pdf  
 This is something good, so we are now really running the new program. However, this pdfs are also all belong to run number 321025, not 321585.  
-Note: Notice that that problem (getting 321025 while expecting 321585) seems unrelated with the new code, because I got that problem even before compiling the new plotter.
+__Note__: Notice that that problem (getting 321025 while expecting 321585) seems unrelated with the new code, because I got that problem even before compiling the new plotter.
 
 After this, I was curious about what if I try for some other run number. I tried for 304726. This time, there was no PulseShapes.pdf or TDCShapes.pdf, and the other plots were existing but all empty.  
 On the other hand, Erdem tried 321585 on his own pc and he didn't also get PulseShapes.pdf and TDCShapes.pdf. He got other plots. 
 
-Therefore, this was very strange problem. There was no pattern. We couldn't figure out why this was happening and we assumed it may be caused by an incompatibility between İrem's plotter and the other files in HFRaddamAnalyzer.
+Therefore, this was very strange problem. There was no pattern. We couldn't figure out why this was happening and we assumed it may be caused by an incompatibility between İrem's plotter and the other files in HFRaddamAnalyzer. However, due to Note above, I think it is much like a problem about 321585 and the old code. Idk.
