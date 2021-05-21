@@ -2,5 +2,11 @@ Erhan Gülmez told us the latest run for HFRadDam. It is 336149 and taken on 15 
 
 He expects us to analyze this run number. Here is a summary of his instructions:
 1) Firstly, we might need to use a newer version of CMSSW, prefably the latest version.
-2) We need to get Q2+Q3/QT graph. This is the graph from which İrem has deducted which TS to use. (See her thesis) However, I think, I and Erdem have never got that graph. So, we need to figure out how to get it.
+2) We need to get Q1+Q2/QT graph. This is the graph from which İrem has deducted which TS to use. (See her thesis) However, I think, I and Erdem have never got that graph. So, we need to figure out how to get it.
 3) After editing timing if needed, we should check cuts. To do this, we have to learn how İrem put cuts.
+
+__Results:__
+
+I noticed that Q1_Q2overQTotal is the name of TGraph in code for Q1+Q2/QT graph in 1_plotter. I also noticed some part of the code related to this is comment out. I removed comment out. I uploaded this version. Compiled it with make plotter. I run it with 321585. At the end, I didn't get any extra pdf's. Then I tried for 336149. The resulting pdf's are the same with 321585 -there was something wrong. The problem is the same with the problem described in 6-plotter-issue.md, but this time I stuck with 321585 not 321025. So, it seems we couldn't fix it. 
+
+I thought maybe it is related my compiling. Maybe I do something wrong. I used precompiled 0_plotter without any change. The result was the same, I get 321585 instead of 336149. 
