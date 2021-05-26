@@ -10,3 +10,5 @@ __Results:__
 I noticed that Q1_Q2overQTotal is the name of TGraph in code for Q1+Q2/QT graph in 1_plotter. I also noticed some part of the code related to this is comment out. I removed comment out. I uploaded this version. Compiled it with make plotter. I run it with 321585. At the end, I didn't get any extra pdf's. Then I tried for 336149. The resulting pdf's are the same with 321585 -there was something wrong. The problem is the same with the problem described in 6-plotter-issue.md, but this time I stuck with 321585 not 321025. So, it seems we couldn't fix it. 
 
 I thought maybe it is related my compiling. Maybe I do something wrong. I used precompiled 0_plotter without any change. The result was the same, I get 321585 instead of 336149. 
+
+Then, I thought, maybe each plotter version is somehow compatible with only a group of run numbers. There is a file called RunList.csv in İrem's Files folder. That file also made me thought this. Therefore, I opened that file and tried for two of the run numbers in it. The result was the same for both of them. 
