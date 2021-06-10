@@ -1,0 +1,5 @@
+We had a problem about getting the "same" plots. Details can be found in 9-news.md 
+
+Erdem figured out that actually these plots are not the same. So, there is no problem. Since they are really similar, we thought they are same, so we thought there is something wrong.   
+They are similar, but not the same. Actually, it is not surprising that they are so much similar: in fact they ought to be thatt much similar because the division of the laser in each channel is constant though being different from channel to channel.   
+Therefore, now, everything is working fine. We just have some important missing plots that are present in İrem's thesis. (Such as Figure 7.14/15 and Figure 7.221) We wrote İrem about them. 
